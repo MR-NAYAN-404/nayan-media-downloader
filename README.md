@@ -7,11 +7,12 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Neuton&size=25&color=30FF40&background=000000&center=true&vCenter=true&width=360&height=60&lines=Hello+World%2C+I'm+Mr-NAYAN+Here+🤙;𝙸𝚃'𝚜+𝙽𝙾𝚃+𝙰+𝙹𝚄𝚂𝚃+𝙽𝙰𝙼𝙴+𝙱𝚁𝙾+🥱;𝙸𝚃'𝚜+𝙰+𝙱𝚁𝙰𝙽𝙳+🔥;Respect+Mr.NAYAN+🥀;Thanks+My+All+Friend+🤙+🥰)](https://git.io/typing-svg)
 
 
-<a href="https://www.npmjs.com/package/nayan-server"><img alt="npm version" src="https://img.shields.io/npm/v/nayan-media-downloader.svg?style=flat-square"></a>
+<a href="https://www.npmjs.com/package/nayan-media-downloader"><img alt="npm version" src="https://img.shields.io/npm/v/nayan-media-downloader.svg?style=flat-square"></a>
 <img alt="version" src="https://img.shields.io/github/package-json/v/MR-NAYAN-404/nayan-media-downloader?label=github&style=flat-square">
 <a href="https://www.npmjs.com/package/nayan-media-downloader"><img src="https://img.shields.io/npm/dm/nayan-media-downloader.svg?style=flat-square" alt="npm downloads"></a><br>
 [![Socket Badge](https://socket.dev/api/badge/npm/package/nayan-media-downloader)](https://socket.dev/npm/package/nayan-media-downloader) 
 [![js dilvr](https://data.jsdelivr.com/v1/package/npm/nayan-media-downloader/badge)](https://www.jsdelivr.com/package/npm/nayan-media-downloader)
+
 ## Instalation :
 ```bash
 > npm i nayan-media-downloader
@@ -163,6 +164,18 @@ fbdown(link, cookie, key).then(data => {
     "audio": "https://video.fkul8-2.fna.fbcdn.net/v/t39.25447-2/428621206_935765774852656_1505609703629717781_n.mp4?_nc_cat=110&ccb=1-7&_nc_sid=9a5d50&efg=eyJ2ZW5jb2RlX3RhZyI6ImRhc2hfYXVkaW9fYWFjcF80OF9mbm9ybTE0X2ZyYWdfMl9hdWRpbyJ9&_nc_ohc=ZoKNtZHq6VUAX_r1QSE&_nc_ht=video.fkul8-2.fna&oh=00_AfAQ7FB2SUPfXGO-2yfIYWhQme4WTkD--g2mZ2anaVmS3A&oe=65DC7873"
 }
  ```
+
+## Usage GDLink 
+```js
+const {GDLink} = require("nayan-server");
+
+const url = 'url' // Public Google Drive Url
+
+GDLink(url).then(data => {
+  console.log(data)
+
+});
+```
 
 
 
