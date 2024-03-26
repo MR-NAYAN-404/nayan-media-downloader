@@ -1,7 +1,7 @@
 {
   "name": "nayan-media-downloader",
-  "version": "2.0.9",
-  "description": "Fetch Url Downloads From Instagram & Facebook & TikTok & YouTube & Twitter",
+  "version": "2.1.0",
+  "description": "Fetch Url Downloads From Instagram & Facebook & TikTok & YouTube & Twitter & Google Drive",
   "main": "src/index.js",
   "scripts": {
     "test": "node src/test.js"
@@ -27,6 +27,9 @@
     "youtube",
     "yt download",
     "Twitter",
+    "gdrive",
+    "drive link",
+    "google drive",
     "nayan"
   ],
   "author": "NAYAN",
