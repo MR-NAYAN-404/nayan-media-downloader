@@ -167,7 +167,7 @@ fbdown(link, cookie, key).then(data => {
 
 ## Usage GDLink 
 ```js
-const {GDLink} = require("nayan-server");
+const {GDLink} = require("nayan-media-downloader");
 
 const url = 'url' // Public Google Drive Url
 
